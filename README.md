@@ -32,8 +32,9 @@ CUSTOM_VOCABULARY=""
 # Desired AWS region to create transribe jobs in
 AWS_REGION="us-east-1"
 ```
-### After custom parameters are set simply execute the script at the command line
+### After custom parameters are set in the file simply make it executable and run the script at the command line
 ```
+~>:  chmod +x queue-transcribe.sh
 ~>:  ./queue-transcribe.sh
 ```
 
