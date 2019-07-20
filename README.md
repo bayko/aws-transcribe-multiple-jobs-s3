@@ -2,11 +2,12 @@
 
 ## This script will create multiple AWS Transcribe jobs out of a S3 bucket containing video/audio files
 
-#### Requirements
+#### Note
 - AWS account credentials must be configured on your local terminal  (instructions found here: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
-- jq binary must be installed (installation instructions found here: https://stedolan.github.io/jq/download/)
-- Script automatically ignores any files in the bucket not matching provided media type
+- jq binary must be installed on your machine (installation instructions found here: https://stedolan.github.io/jq/download/)
+- Script automatically ignores any files in the bucket not matching the provided media type
 - All files in target folder that match the provided media type will be submitted to AWS Transcribe
+- If you wish to use a custom vocabulary you must have already created it inside the AWS Transcribe console
 
 ### Adjust parameters to your environment
 ```
