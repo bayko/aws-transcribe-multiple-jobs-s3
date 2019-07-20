@@ -23,7 +23,7 @@ MEDIA_FORMAT="mp4"
 # Language for Transcription
 LANGUAGE_CODE="en-US"
 
-# Optional name of custom vocabulary to use - set value as "" if none
+# Optional name of custom vocabulary - set value as "" if none
 CUSTOM_VOCABULARY="my-aws-vocabulary"
 
 # Desired AWS region to create transribe jobs in
