@@ -9,7 +9,7 @@ BUCKET_NAME="example-bucket"
 PARENT_FOLDER="video-files"
 
 # Optional sub-folder - leave value as "" if none
-SUB_FOLDER="raw-files"
+SUB_FOLDER=""
 
 # Format for the media files being transcribed
 MEDIA_FORMAT="mp4"
@@ -18,7 +18,7 @@ MEDIA_FORMAT="mp4"
 LANGUAGE_CODE="en-US"
 
 # Optional name of custom vocabulary to use - leave value as "" if none
-CUSTOM_VOCABULARY="my-aws-vocabulary"
+CUSTOM_VOCABULARY=""
 
 # Desired AWS region to create transribe jobs in
 AWS_REGION="us-east-1"
