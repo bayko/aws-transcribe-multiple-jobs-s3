@@ -1,6 +1,6 @@
 # AWS Transcribe - Multiple Job Queue
 
-## This script will create multiple AWS Transcribe jobs out video or audio files saved in a S3 Bucket
+## This script will create multiple AWS Transcribe jobs out of video or audio files saved in a S3 Bucket
 
 #### Note
 - AWS account credentials must be configured on your local terminal  (instructions found here: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
